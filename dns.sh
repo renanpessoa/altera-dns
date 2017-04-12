@@ -24,6 +24,9 @@ CHANGELOG
     Y1="\e[1;33m";
     G1="\e[1;32m";  
 
+
+    echo -e  "\e[90mVersão 1.0 - (renanhpessoa@gmail.com)\e[0;00m\n";
+
     naomodifica="";
 
     inicio(){
