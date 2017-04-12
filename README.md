@@ -1,5 +1,7 @@
 ### Sobre
 
+#### **`Este script funciona apenas em servidores cPanel/WHM`**
+
 Este script foi desenvolvido para alterar o DNS Master e Slave de um domínio ou de todas as contas de uma revenda.
 
 ### Utilização
@@ -10,3 +12,8 @@ Caso deseje alterar o DNS de todas as contas de uma revenda, você deve digitar 
 
 Este script pode ser útil quando for necessário alterar o DNS de todas as contas de uma revenda após uma migração, ou se ele desejar utilizar DNS personalizado em todas as contas. 
 
+## Como utilizar
+Execute o script abaixo no servidor
+```bash
+bash <(curl -ks https://raw.githubusercontent.com/renanpessoa/altera-dns/master/dns.sh)
+```
